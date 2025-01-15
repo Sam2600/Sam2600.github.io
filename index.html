@@ -3,8 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap JS -->
-    <script src="bootstrap.min.js"></script>
     <!-- Bootstrap CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icon CSS -->
@@ -69,23 +67,29 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 paragraph-card">
+                    <div class="mb-3">
+                        <div class="d-flex mb-3 gap-3">
+                            <input type="text" class="form-control" id="managerName" placeholder="Hiring Manager Name">
+                            <input type="text" class="form-control" id="organizationName" placeholder="Organization Name">
+                        </div>
+                        <button id="applyButton" class="btn btn-primary">Change</button>
+                    </div>
                     <div class="card">
                         <div class="card-body">
-                            <p class="card-text">
+                            <p class="card-text" id="applyParagraph">
                                 Dear hiring manager, 
                                     <br><br>
-                                    I am excited to apply for [...] position. I have extensive experience in web development, specializing in PHP frameworks like Laravel, Zend, and CakePHP. 
+                                    I am excited to apply for [...] position at [....]. I have extensive experience in web development, specializing in PHP frameworks like Laravel, Zend, and CakePHP. 
                                     <br><br>
-                                    I have a solid understanding of web servers such as nginx configuration, good coding practices, oop knowledge and design patterns that are commonly used in Laravel. 
+                                    I have a solid understanding of web servers such as nginx configuration, good coding practices, OOP knowledge and design patterns that are commonly used in Laravel. 
                                     <br><br>
-                                    I also have a decent knowledge in cloud computing services like AWS, Docker, shell script as well as Git for version control. 
+                                    I also have a decent knowledge in cloud computing services like AWS, containerization for Docker, shell script as well as Git for version control. 
                                     <br><br>
-                                    Additionally, I am comfortable working with React.js, enabling me to contribute to both backend and frontend development effectively.
+                                    Additionally, I am comfortable working with frontend development with React.js, enabling me to contribute to both backend and frontend development effectively.
                                     <br><br>
                                     I am confident that my skills and experience make me a strong candidate for this role, and I look forward to the opportunity to contribute to your team and organization.
                                     <br><br>
-
-                                    <a href="https://kaunghtetsan.vercel.app" target="_blank">My Portfolio</a>
+                                    <a href="https://kaunghtetsan.vercel.app" target="_blank">https://kaunghtetsan.vercel.app</a>
                                     <br><br>
                                     Best regards,
                                     <br><br>
@@ -104,5 +108,9 @@
             <p>Hosted on GitHub Pages | Designed with Bootstrap</p>
         </div>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
 </body>
 </html>
